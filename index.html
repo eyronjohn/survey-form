@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialization Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Specialization Track Survey Form</h1>
+    <p>Please fill out this form to help us understand your preferred specialization track.</p>
+    <div class="main">
+        <form class="survey-form">
+            <div> <!--input fields-->
+                <label for="fname">Name<input id="fname" name="fname" type="text" required placeholder="Surname, FirstName" /></label>
+                <label for="email">Email<input id="email" name="email" type="text" required placeholder="example@gmail.com"/>  </label>
+                <label for="age">Age(optional)<input type="number" id="age" name="age" min="18" max="30" placeholder="18+"></label>
+
+                <label for="specialization">Preferred Specialization Track:</label>
+                <select id="specialization" name="specialization">
+                    <option value="">(Select specialization track)</option>
+                    <option value="1">Business and Data Analytics</option>
+                    <option value="2">Infrastructure Services</option>
+                    <option value="3">Web and Mobile Development</option>
+                  </select>
+                </label>
+            </div>
+            <br>
+            <div> <!--dropdown-div-->
+                <label for="option">Which option best describes your expertise?</label>
+                <select id="option" name="option">
+                    <option value="">(Select an option)</option>
+                    <option value="1">Data Visualization and Analysis</option>
+                    <option value="2">Architecture and Configuration</option>
+                    <option value="3">Programming and Development</option>
+                  </select
+            </div>
+            <br><br>
+            <div> <!--operating system experience-->
+                <label for="os">Operating Systems Experience:</label>
+                <label for="windows"><input type="checkbox" name="checkbox" value="windows">I am experienced with Windows-OS</label>
+                <label for="linux"><input type="checkbox" name="checkbox" value="linux">I am experienced with Linux-OS</label>
+                <label for="macos"><input type="checkbox" name="checkbox" value="macos">I am experienced with MacOS</label>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
