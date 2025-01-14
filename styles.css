@@ -32,3 +32,21 @@ label{
     padding: 3rem 2.5rem;
     border-radius: 7px;
 }
+
+select{
+    width: 100%;
+}
+
+.personal-info input{
+    width: 100%;
+}
+
+.apply{
+    margin-left: 0.99rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+
+option{
+    font-size: 1.0vw;
+}
