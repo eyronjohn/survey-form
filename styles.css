@@ -1,5 +1,3 @@
-
-
 /**{
     margin: 0;
     padding: 0;
@@ -48,5 +46,28 @@ select{
 }
 
 option{
+    font-size: 1.0vw;
+}
+
+
+textarea{
+    width: 100%;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    height: 50px;  
+    width: 60%;
+    background-color: #54b2bb;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+}
+
+.optional{
     font-size: 1.0vw;
 }

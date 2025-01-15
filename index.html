@@ -13,9 +13,10 @@
     <div class="main">
         <form class="survey-form">
             <div class="personal-info"> <!--input fields-->
-                <label for="fname">Name<input id="fname" name="fname" type="text" required placeholder="Surname, FirstName" /></label>
+                <label for="fname">Name<input id="fname" name="fname" type="text" required placeholder="Surname, First Name" /></label>
                 <label for="email">Email<input id="email" name="email" type="text" required placeholder="example@gmail.com"/>  </label>
-                <label for="age">Age(optional)<input type="number" id="age" name="age" min="18" max="30" placeholder="18+"></label>
+                <label for="studId">Student No.<input type="number" name="studId" id="studId" placeholder="202410250"></label>
+                <label for="age">Age <span class="optional">(optional)</span><input type="number" id="age" name="age" min="18" max="30" placeholder="18+"></label>
 
                 <br>
                 <label for="specialization">Preferred Specialization Track:</label>
@@ -35,15 +36,6 @@
                 <label for="web"><input type="radio" name="radio" value="web">Software Development</label>
             </div>
             <br>
-            <div> <!--development experience-->
-                <label for="os">Development experience:</label>
-                <label for="html"><input type="checkbox" name="checkbox" value="html">HTML</label>
-                <label for="css"><input type="checkbox" name="checkbox" value="css">CSS</label>
-                <label for="js"><input type="checkbox" name="checkbox" value="js">JavaScript</label>
-                <label for="react"><input type="checkbox" name="checkbox" value="js">React</label>
-                <label for="node"><input type="checkbox" name="checkbox" value="js">Node.js</label>
-            </div>
-            <br>
 
             <div> <!--career-->
                 <label for="os">What courses do you enjoy the most? (Check all that apply)</label>
@@ -56,6 +48,26 @@
                 <label for="dsa"><input type="checkbox" name="checkbox" value="dsa">Data Structures and Algorithms</label>
                 <label for="oop"><input type="checkbox" name="checkbox" value="oop">Object-Oriented Programming</label>
             </div>
+            <br>
+
+            <div> <!--strenghts description-->
+                <label for="description">Describe your current skillsets and expertise in the IT field:</label>
+                <textarea style= height: 120px; id="description" name="description" row="100" column="100" placeholder="I have gained extensive knowledge in developing a webpage..."></textarea>
+            </div>
+            <br>
+
+            <div> <!--development experience-->
+                <label for="os">Operating System experience:</label>
+                <label for="windows"><input type="checkbox" name="checkbox" value="Windows-OS">Windows-OS</label>
+                <label for="macos"><input type="checkbox" name="checkbox" value="macos">MacOS</label>
+                <label for="linux"><input type="checkbox" name="checkbox" value="linux">Linux</label>
+            </div>
+            <br>
+
+            <div class="submit-button">
+                <input type="submit" value="Submit">
+            </div>
+            
         </form>
     </div>
     
